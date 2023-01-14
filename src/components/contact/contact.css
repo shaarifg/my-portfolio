@@ -1,0 +1,35 @@
+.contact__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5rem;
+    gap: 1rem;
+}
+.contact__info h2{
+    margin-bottom: 1rem;
+}
+.contact__personal{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    padding: 0 0 2rem 0;
+}
+.contact__profiles a{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:1.5rem;
+    width: max-content;
+
+}
+
+/* ===========MEDIA QUERIES (MEDIUM DEVICES)=============*/
+
+@media screen and (max-width:1024px) {
+}
+    /* ===========MEDIA QUERIES (SMALL DEVICES)=============*/
+
+@media screen and (max-width:600px) {
+    .contact__container{
+        width: 90%;
+    } 
+    
+}
